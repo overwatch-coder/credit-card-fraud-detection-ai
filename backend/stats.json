@@ -1,0 +1,13 @@
+{
+  "total_transactions": 160,
+  "total_frauds": 2,
+  "fraud_rate": 1.25,
+  "total_amount": 75.45876790432484,
+  "amount_saved": 2.2532332081768875,
+  "monthly_fraud": { "May": 2 },
+  "monthly_legit": { "May": 158 },
+  "fraud_bin_0": 2,
+  "fraud_bin_1": 0,
+  "fraud_bin_2": 0,
+  "fraud_bin_3": 0
+}
