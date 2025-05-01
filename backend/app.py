@@ -9,6 +9,7 @@ import joblib
 import calendar
 
 app = Flask(__name__)
+app.config['MAX_CONTENT_LENGTH'] = 1024 * 1024 * 1024  # 1 GB
 CORS(app, origins=["http://localhost:3000", "http://ec2-13-48-10-65.eu-north-1.compute.amazonaws.com"])
 
 # Load model
