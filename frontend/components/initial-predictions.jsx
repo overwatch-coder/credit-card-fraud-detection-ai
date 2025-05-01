@@ -26,7 +26,7 @@ export function InitialPredictions() {
   const [page, setPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
   const limit = 10;
-  const uploadId = "creditcard_with_predictions";
+  const uploadId = "8b0d6a0f-cb3f-4361-af60-5bb5ddfe52c1";
 
   useEffect(() => {
     const fetchInitialPredictions = async () => {
