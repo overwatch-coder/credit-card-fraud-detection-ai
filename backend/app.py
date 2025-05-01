@@ -9,7 +9,7 @@ import joblib
 import calendar
 
 app = Flask(__name__)
-CORS(app, origins=["http://localhost:3000"])
+CORS(app, origins=["http://localhost:3000", "http://ec2-13-48-10-65.eu-north-1.compute.amazonaws.com"])
 
 # Load model
 model_dict = joblib.load("fraud_detection_model.pkl")
