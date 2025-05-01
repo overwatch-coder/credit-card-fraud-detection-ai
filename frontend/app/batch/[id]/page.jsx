@@ -106,7 +106,7 @@ export default function BatchResultsPage() {
           <CardHeader>
             <CardTitle>Batch Prediction Results</CardTitle>
             <CardDescription>
-              {uploadId === "creditcard_with_predictions"
+              {uploadId === "8b0d6a0f-cb3f-4361-af60-5bb5ddfe52c1"
                 ? "Viewing results from the default credit card dataset"
                 : `Viewing results for upload ID: ${uploadId}`}
             </CardDescription>
