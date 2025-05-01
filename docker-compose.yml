@@ -9,6 +9,7 @@ services:
     volumes:
       - ./backend/stats.json:/app/stats.json
       - ./backend/csv_uploads:/app/csv_uploads
+      - ./backend/cache:/app/cache
     expose:
       - "5000"
 
