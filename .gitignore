@@ -23,7 +23,6 @@ lib-cov
 coverage
 *.lcov
 
-csv_uploads
 cache
 
 # nyc test coverage

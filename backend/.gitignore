@@ -26,9 +26,7 @@ lib-cov
 coverage
 *.lcov
 
-csv_uploads
 cache
-frontend
 
 # nyc test coverage
 .nyc_output
