@@ -4,7 +4,7 @@ services:
   backend:
     build:
       context: ./backend
-    container_name: fraud-api
+    # container_name: fraud-api
     restart: always
     volumes:
       - ./backend/stats.json:/app/stats.json
